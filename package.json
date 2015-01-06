@@ -1,27 +1,27 @@
 {
-  "name": "karma-phantomjs-launcher",
-  "version": "0.2.0",
-  "description": "A Karma plugin. Launcher for PhantomJS.",
+  "name": "karma-phantomjs2-launcher",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Launcher for PhantomJS 2. Slightly changed karma-phantomjs-launcher plugin.ß",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-phantomjs-launcher.git"
+    "url": "git://github.com/gskachkov/karma-phantomjs2-launcher.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-launcher",
     "phantomjs"
   ],
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": "Alexandr Skackhov <gskachkov@gmail.com>",
   "dependencies": {
-    "lodash": "~3.9.3"
+    "lodash": "~3.9.3",
+    "phantomjs2": "^2.0.0"
   },
   "peerDependencies": {
-    "karma": ">=0.9",
-    "phantomjs": ">=1.9"
+    "karma": ">=0.9"
   },
   "license": "MIT",
   "devDependencies": {
