@@ -97,5 +97,5 @@ PhantomJSBrowser.$inject = ['baseBrowserDecorator', 'config.phantomjsLauncher', 
 
 // PUBLISH DI MODULE
 module.exports = {
-  'launcher:PhantomJS': ['type', PhantomJSBrowser]
+  'launcher:PhantomJS2': ['type', PhantomJSBrowser]
 }
