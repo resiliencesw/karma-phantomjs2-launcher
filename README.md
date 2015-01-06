@@ -1,40 +1,41 @@
-# karma-phantomjs-launcher
+karma-phantomjs2-launcher
+=========================
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/karma-runner/karma-phantomjs-launcher)
- [![npm version](https://img.shields.io/npm/v/karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-phantomjs-launcher) [![npm downloads](https://img.shields.io/npm/dm/karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-phantomjs-launcher)
+> Launcher for [PhantomJS 2]. As for now it is temporary solution, until default karma-phantomjs-launcher is not support of the PhantomJS 2. PhantomJS 2 is not stable [PhantomJS-2](https://github.com/ariya/phantomjs/wiki/PhantomJS-2)
 
-[![Build Status](https://img.shields.io/travis/karma-runner/karma-phantomjs-launcher/master.svg?style=flat-square)](https://travis-ci.org/karma-runner/karma-phantomjs-launcher) [![Dependency Status](https://img.shields.io/david/karma-runner/karma-phantomjs-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-phantomjs-launcher) [![devDependency Status](https://img.shields.io/david/dev/karma-runner/karma-phantomjs-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-phantomjs-launcher#info=devDependencies)
-
-> Launcher for [PhantomJS].
-
-## Installation
+Installation
+------------
 
 The easiest way is to keep `karma-phantomjs-launcher` as a devDependency in your `package.json`.
+
 ```json
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-phantomjs-launcher": "~0.1"
+    "karma-phantomjs2-launcher": "~0.1"
   }
 }
 ```
 
 You can simple do it by:
+
 ```bash
-npm install karma-phantomjs-launcher --save-dev
+npm install karma-phantomjs2-launcher --save-dev
 ```
 
-## Configuration
+Configuration
+-------------
+
 ```js
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    browsers: ['PhantomJS', 'PhantomJS_custom'],
+    browsers: ['PhantomJS2', 'PhantomJS2_custom'],
 
     // you can define custom flags
     customLaunchers: {
-      'PhantomJS_custom': {
-        base: 'PhantomJS',
+      'PhantomJS2_custom': {
+        base: 'PhantomJS2',
         options: {
           windowName: 'my-window',
           settings: {
@@ -55,20 +56,11 @@ module.exports = function(config) {
 ```
 
 You can pass list of browsers as a CLI argument too:
+
 ```bash
-karma start --browsers PhantomJS_custom
+karma start --browsers PhantomJS2_custom
 ```
 
-If you set the `debug` option to `true`, you will be instructed to launch a web browser to
-bring up the debugger. Note that you will want to put `debugger;` statements in your JavaScript
-to hit breakpoints. You should be able to put breakpoints in both your test code and your client
-code. Note that the `debug` option automatically adds the `--remote-debugger-port=9000` and
-`--remote-debugger-autorun=yes` switches to PhantomJS.
+---
 
-----
-
-For more information on Karma see the [homepage].
-
-
-[homepage]: http://karma-runner.github.com
-[PhantomJS]: http://phantomjs.org/
+For more information on Karma see the [homepage](http://karma-runner.github.com).
