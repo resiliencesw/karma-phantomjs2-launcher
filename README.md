@@ -1,10 +1,10 @@
 karma-phantomjs2-launcher
 =========================
 
-> Launcher for [PhantomJS 2]. As for now it is temporary solution, until default karma-phantomjs-launcher is not support of the PhantomJS 2. PhantomJS 2 is not stable [PhantomJS-2](https://github.com/ariya/phantomjs/wiki/PhantomJS-2)
-
-Installation
-------------
+> Launcher for [PhantomJS 2]. As for now it is temporary solution, until default karma-phantomjs-launcher is not support of the PhantomJS 2. PhantomJS 2 is not stable [PhantomJS-2](https://github.com/ariya/phantomjs/wiki/PhantomJS-2) Loading PhantomJS from custom ULR can be done by setting the `PHANTOMJS2_DOWNLOAD_URL` environment variable.
+>
+> Installation
+> ------------
 
 The easiest way is to keep `karma-phantomjs-launcher` as a devDependency in your `package.json`.
 
