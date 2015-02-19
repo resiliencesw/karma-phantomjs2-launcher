@@ -1,6 +1,6 @@
 {
   "name": "karma-phantomjs2-launcher",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Karma plugin. Launcher for PhantomJS 2. Slightly changed karma-phantomjs-launcher plugin.ß",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "author": "Alexandr Skackhov <gskachkov@gmail.com>",
   "dependencies": {
-    "phantomjs2-ext": "^0.0.3"
+    "phantomjs2-ext": "^0.0.4"
   },
   "peerDependencies": {
     "karma": ">=0.9"
