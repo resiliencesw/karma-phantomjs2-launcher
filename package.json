@@ -19,7 +19,7 @@
   "author": "Alexandr Skackhov <gskachkov@gmail.com>",
   "dependencies": {
     "lodash": "~3.9.3",
-    "phantomjs2-ext": "^0.0.4"
+    "phantomjs2-ext": "^0.0.6"
   },
   "peerDependencies": {
     "karma": ">=0.9"
@@ -29,8 +29,8 @@
     "eslint": "^0.21.2",
     "eslint-config-standard": "^1.1.1",
     "eslint-plugin-react": "^2.3.0",
-    "grunt": "~0.4.1",
-    "grunt-auto-release": "~0.0.2",
+    "grunt": "~0.4.5",
+    "grunt-auto-release": "~0.0.6",
     "grunt-bump": "~0.3.1",
     "grunt-conventional-changelog": "^1.2.2",
     "grunt-eslint": "^13.0.0",
