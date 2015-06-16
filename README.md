@@ -40,10 +40,16 @@ module.exports = function(config) {
           windowName: 'my-window',
           settings: {
             webSecurityEnabled: false
-          }
+          },
         },
-        flags: ['--remote-debugger-port=9000']
+        flags: ['--load-images=true'],
+        debug: true
       }
+    },
+
+    phantomjsLauncher: {
+      // Have phantomjs exit if a ResourceError is encountered (useful if karma exits without killing phantom)
+      exitOnResourceError: true
     }
   });
 };
