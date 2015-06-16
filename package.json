@@ -56,7 +56,8 @@
     "Eryk Napierała <eryk.piast@gmail.com>",
     "Jason Dobry <jason.dobry@gmail.com>",
     "Mark Derbecker <mark.derbecker@seeq.com>",
-    "Nick Malaguti <nmalaguti@palantir.com>"
+    "Nick Malaguti <nmalaguti@palantir.com>",
+    "kibin <mr.kibin@gmail.com>"
   ],
   "bugs": {
     "url": "https://github.com/gskachkov/karma-phantomjs2-launcher/issues"
