@@ -19,7 +19,7 @@
   "author": "Alexandr Skackhov <gskachkov@gmail.com>",
   "dependencies": {
     "lodash": "~3.9.3",
-    "phantomjs2-ext": "^0.0.7"
+    "phantomjs2-ext": "^0.1.0"
   },
   "peerDependencies": {
     "karma": ">=0.9"
