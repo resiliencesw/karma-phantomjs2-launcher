@@ -19,7 +19,7 @@
   "author": "Alexandr Skackhov <gskachkov@gmail.com>",
   "dependencies": {
     "lodash": "~3.9.3",
-    "phantomjs2-ext": "git+https://github.com/resiliencesw/phantomjs2-ext.git#739a1cb64a5fd4d951c1c382562da1a2b5b3fa6e",
+    "phantomjs2-ext": "git+https://github.com/resiliencesw/phantomjs2-ext.git#master"
   },
   "peerDependencies": {
     "karma": ">=0.9"
